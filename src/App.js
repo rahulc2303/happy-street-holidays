@@ -1,13 +1,10 @@
-// import HomeScreenSlider from "./Components/HomeScreenSlider/HomeScreenSlider";
-// import NavBarHolidays from "./Components/NavBarHolidays/NavBarHolidays";
-
-import PopularDestinationCard from "./Components/PopularDestinationCard/PopularDestinationCard";
+import HomeScreenSlider from "./Components/HomeScreenSlider/HomeScreenSlider";
+import NavBarHolidays from "./Components/NavBarHolidays/NavBarHolidays";
 
 function App() {
   return (
     <>
-      {/* <NavBarHolidays /> */}
-      <PopularDestinationCard />
+      <NavBarHolidays />
     </>
   );
 }
