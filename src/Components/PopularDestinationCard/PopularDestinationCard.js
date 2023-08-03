@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../Assets/Img/Popular destinations/img1";
+import img1 from "../../Assets/Img/Popular destinations/img1.png";
 import "./PopularDestinationCard.css";
 
 const PopularDestinationCard = () => {
@@ -10,10 +10,10 @@ const PopularDestinationCard = () => {
       <div className="flex-card-component-for-the-destinations">
         {/* specific width for the component */}
 
-        <div className="specific-width-for-the-destination-component">
+        <div className="specific-width-for-the-destination-component ">
           {/* img for the component */}
           <img
-            className="image-for-the-popular-destinations"
+            className="image-for-the-popular-destinations "
             src={img1}
             alt=""
             srcset=""
