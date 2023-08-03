@@ -1,6 +1,7 @@
 .main-footer {
   background-color: #040e27;
   width: 75em;
+  color: white;
 }
 .footer-flex-container {
   background-color: #040e27;
@@ -16,6 +17,9 @@
   .social-media-in-footer {
     display: flex;
     justify-content: center;
+  }
+  .respo-container-for-destination-post-footer {
+    margin: 1em;
   }
   .destinations-in-footer {
     display: flex;

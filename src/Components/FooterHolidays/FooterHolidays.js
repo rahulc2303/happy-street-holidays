@@ -25,7 +25,7 @@ const FooterHolidays = () => {
                 </div> */}
 
                         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
-                        <div className="mx-6 py-10 text-center md:text-left">
+                        <div className="py-10 text-center md:text-left">
                             <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                                 {/* <!-- Tailwind Elements section --> */}
                                 <div className="">
@@ -183,12 +183,12 @@ const FooterHolidays = () => {
                                     </div>
                                 </div>
                                 {/* <!-- Contact section --> */}
-                                <div>
+                                <div >
                                     <h6
                                         className="mb-4 flex justify-center font-semibold uppercase md:justify-center">
                                         Instagram
                                     </h6>
-                                    <div className="">
+                                    <div className="respo-container-for-destination-post-footer">
                                         <div class="container  py-2  ">
                                             <div class="-m-1 flex flex-wrap md:-m-2">
                                                 <div class="flex w-1/3 flex-wrap">
