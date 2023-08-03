@@ -10,7 +10,7 @@ const PopularDestinationCard = () => {
       <div className="flex-card-component-for-the-destinations">
         {/* specific width for the component */}
 
-        <div className="specific-width-for-the-destination-component ">
+        <div className="specific-width-for-the-destination-component">
           {/* img for the component */}
           <img
             className="image-for-the-popular-destinations "

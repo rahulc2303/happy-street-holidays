@@ -1,0 +1,54 @@
+.flex-card-component-for-the-destinations {
+  display: flex;
+  justify-content: center;
+}
+.place-name-and-counting-of-places-for-the-component {
+  display: flex;
+  /* justify-content: space-evenly; */
+  column-gap: 2em;
+  padding: 1em;
+  position: absolute;
+  bottom: 27em;
+  margin-left: 2em;
+}
+.image-for-the-popular-destinations {
+}
+.specific-width-for-the-destination-component {
+}
+.place-name-of-the-state {
+  color: black;
+  font-weight: 900;
+}
+.how-many-places-in-the-given-state {
+  background-color: #1ec6b6;
+  padding: 1px 11px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 11px;
+  color: white;
+}
+.rounded-xl {
+  border-radius: 5px;
+}
+
+/* Media query */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-card-component-for-the-destinations {
+    display: block;
+    justify-content: center;
+    margin: 1em;
+  }
+  .place-name-and-counting-of-places-for-the-component {
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 3em;
+    padding: 1em;
+    position: absolute;
+    bottom: 27em;
+    margin-left: 2em;
+  }
+  .image-for-the-popular-destinations {
+    width: 100%;
+  }
+}
