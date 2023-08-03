@@ -1,3 +1,17 @@
+.main-footer {
+  background-color: #040e27;
+  width: 75em;
+}
+.footer-flex-container {
+  background-color: #040e27;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright-section {
+  background-color: #040e27;
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
   .social-media-in-footer {
     display: flex;
@@ -9,5 +23,8 @@
   }
   .main-footer {
     width: 100%;
+  }
+  .copyright-section {
+    margin-top: 0;
   }
 }
