@@ -41,7 +41,7 @@ const FooterHolidays = () => {
                                 elit.
                             </p>
                             {/* <!-- Social network icons container --> */}
-                            <div className="flex  mt-5 md:justify-center social-media-in-footer">
+                            <div className="flex  mt-5 md:justify-start social-media-in-footer">
                                 <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
