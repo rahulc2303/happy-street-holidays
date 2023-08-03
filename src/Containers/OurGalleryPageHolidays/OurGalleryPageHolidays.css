@@ -1,0 +1,12 @@
+.width-container-for-gallery {
+  width: 75em;
+}
+.flex-container-for-gallery {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .width-container-for-gallery {
+    width: 100%;
+  }
+}
