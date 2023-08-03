@@ -1,0 +1,13 @@
+@media (min-width: 320px) and (max-width: 425px) {
+  .social-media-in-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .destinations-in-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .main-footer {
+    width: 100%;
+  }
+}
