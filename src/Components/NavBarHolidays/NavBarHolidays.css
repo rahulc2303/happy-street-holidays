@@ -10,7 +10,7 @@
 .Navbar > .nav-logo {
   font-weight: 700;
   font-size: 21px;
-  margin: 15px;
+  margin: 0 2em;
   color: #080707;
 }
 
@@ -68,6 +68,10 @@
 .call-icon-navbar {
   height: 20px;
   width: 20px;
+}
+.main-logo-for-the-website {
+  width: 3em;
+  height: 3em;
 }
 /* @media (max-width: 700px) { */
 @media (min-width: 320px) and (max-width: 425px) {

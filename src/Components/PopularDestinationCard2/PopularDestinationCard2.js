@@ -2,17 +2,14 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
   Typography,
-  Button,
-  Tooltip,
   IconButton,
 } from "@material-tailwind/react";
 import "./PopularDestinationCard2.css";
 
-export function PopularDestinationCard2() {
+export function PopularDestinationCard2(props) {
   return (
-    <Card className="w-full max-w-[26rem] shadow-lg ">
+    <Card className="w-full max-w-[23rem] shadow-lg ">
       <CardHeader floated={false} color="blue-gray rounded-none">
         <img
           src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -39,7 +36,7 @@ export function PopularDestinationCard2() {
       <CardBody>
         <div className="mb-3 block items-center justify-between">
           <Typography variant="h5" color="blue-gray" className="font-medium">
-            Wooden House, Florida
+            {props.PopularDestinationCardDetails.destinations}
           </Typography>
           <Typography
             color="blue-gray"
@@ -105,10 +102,13 @@ export function PopularDestinationCard2() {
                 clipRule="evenodd"
               />
             </svg>
-            5.0
+            {props.PopularDestinationCardDetails.ratings}
           </Typography>
         </div>
-        <Typography color="gray">Enter a freshly updated.</Typography>
+        <Typography color="gray">
+          {" "}
+          {props.PopularDestinationCardDetails.descriptions}
+        </Typography>
       </CardBody>
     </Card>
   );

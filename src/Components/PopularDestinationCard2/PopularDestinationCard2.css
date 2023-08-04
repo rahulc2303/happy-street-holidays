@@ -29,6 +29,9 @@
 }
 .rounded-xl {
   border-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+  /* width: 23em; */
 }
 
 /* Media query */

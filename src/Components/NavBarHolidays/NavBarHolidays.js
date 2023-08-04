@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import happystreetholidays from "../../Assets/Img/Logo/logo-for-happy-street-holidays.png";
+import happystreetholidays from "../../Assets/Img/Logo/logo-for-happy-street-holidays.jpg";
 import calliconnav from "../../Assets/Img/Social Media/call-icon-nav.png";
 import whatsappicon from "../../Assets/Img/Social Media/icon-whatsapp.png";
 import instagramicon from "../../Assets/Img/Social Media/instagram-icon.png";

@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 import "./PopularPlacesCard.css";
 
-export function PopularPlacesCard() {
+export function PopularPlacesCard(props) {
   return (
     <Card
       shadow={false}
@@ -27,14 +27,14 @@ export function PopularPlacesCard() {
           color="white"
           className=" font-medium leading-[1.5]"
         >
-          Italy
+          {props.PopularPlaceCardDetails.title}
         </Typography>{" "}
         <Typography
           variant="h4"
           color="white"
           className=" font-medium leading-[1.5] how-many-places-in-the-given-state"
         >
-          07 Places
+          {props.PopularPlaceCardDetails.placecount}
         </Typography>
       </CardBody>
     </Card>

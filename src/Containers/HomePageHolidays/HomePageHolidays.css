@@ -1,0 +1,151 @@
+.flex-container-for-the-home-screen-container {
+  display: flex;
+  justify-content: center;
+}
+.width-specific-75em-for-the-home-page-middle-sections {
+  width: 75em;
+}
+/* css for different places card section */
+.heading-text-and-the-description-for-the-different-places-section {
+  text-align: center;
+  row-gap: 1em;
+  display: grid;
+  margin: 5em 0;
+  padding: 0 20em;
+}
+.heading-for-the-different-places-section {
+  font-size: 38px;
+  font-weight: 400;
+  color: #040e27;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 7px;
+}
+.description-for-the-different-places-section {
+  font-size: 16px;
+  color: #7a838b;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.import-component-popular-places-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 4em;
+}
+/* css for different destinations card section */
+.heading-text-and-the-description-for-the-different-destinations-section {
+  text-align: center;
+  row-gap: 1em;
+  display: grid;
+  margin: 5em 0;
+  padding: 0 20em;
+}
+.heading-for-the-different-destinations-section {
+  font-size: 38px;
+  font-weight: 400;
+  color: #040e27;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 7px;
+}
+.description-for-the-different-destinations-section {
+  font-size: 16px;
+  color: #7a838b;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.import-component-popular-destination-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 4em;
+  margin-bottom: 5em;
+}
+
+/* recent trip css cards */
+.import-component-recent-trips-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 4em;
+}
+.heading-text-and-the-description-for-the-recent-trips-section {
+  text-align: center;
+  row-gap: 1em;
+  display: grid;
+  margin: 5em 0;
+  padding: 0 20em;
+}
+.heading-for-the-recent-trips-section {
+  font-size: 38px;
+  font-weight: 400;
+  color: #040e27;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 7px;
+}
+
+/* @media (max-width: 700px) { */
+@media (min-width: 320px) and (max-width: 425px) {
+  .import-component-popular-places-cards {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 4em;
+  }
+  .import-component-popular-destination-cards {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 4em;
+    margin-bottom: 5em;
+    margin: 1em;
+  }
+  .import-component-recent-trips-cards {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 4em;
+  }
+  .heading-text-and-the-description-for-the-different-destinations-section {
+    text-align: center;
+    row-gap: 1em;
+    display: grid;
+    margin: 5em 0;
+    padding: 0 0em;
+    justify-content: center;
+  }
+  .heading-text-and-the-description-for-the-different-places-section {
+    text-align: center;
+    row-gap: 1em;
+    display: grid;
+    margin: 5em 0;
+    padding: 0 0em;
+    justify-content: center;
+  }
+  .heading-text-and-the-description-for-the-recent-trips-section {
+    text-align: center;
+    row-gap: 1em;
+    display: grid;
+    margin: 5em 0;
+    padding: 0 0em;
+    justify-content: center;
+  }
+  .section-for-the-different-places-component {
+    margin: 1em;
+  }
+  .section-for-the-different-destinations-component {
+    margin: 1em;
+  }
+  .section-for-the-recent-trips-component {
+    margin: 1em;
+  }
+  .width-specific-75em-for-the-home-page-middle-sections {
+    width: 100%;
+    margin: 1em;
+  }
+}
