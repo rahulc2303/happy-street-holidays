@@ -3,13 +3,13 @@ import "./FooterHolidays.css";
 import { Typography } from "@material-tailwind/react";
 
 const FooterHolidays = () => {
-  return (
-    <>
-      {/* <!-- Footer container --> */}
-      <div className="footer-flex-container text-white">
-        <div className="w-75%">
-          <footer className="bg-neutral-100 text-center text-neutral-600  dark:text-neutral-200 lg:text-left main-footer">
-            {/* <div
+    return (
+        <>
+            {/* <!-- Footer container --> */}
+            <div className="footer-flex-container text-white">
+                <div className="w-75%">
+                    <footer className="bg-neutral-100 text-center text-neutral-600  dark:text-neutral-200 lg:text-left main-footer">
+                        {/* <div
                     className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
                     <div className="mr-12 hidden lg:block">
                         <span>Get connected with us on social networks:</span>
@@ -18,7 +18,7 @@ const FooterHolidays = () => {
                 </div> */}
 
                         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
-                        <div className="mx-6 py-10 text-center md:text-left">
+                        <div className="mx-6 my-36 text-center md:text-left ">
                             <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                                 {/* <!-- Tailwind Elements section --> */}
                                 <div className="">
@@ -34,13 +34,13 @@ const FooterHolidays = () => {
                                         </svg>
                                         Tailwind ELEMENTS
                                     </h6>
-                                    <p>
+                                    <p className="text-gray-400">
                                         Here you can use rows and columns to organize your footer
                                         content. Lorem ipsum dolor sit amet, consectetur adipisicing
                                         elit.
                                     </p>
                                     {/* <!-- Social network icons container --> */}
-                                    <div className="flex  mt-5 md:justify-start social-media-in-footer">
+                                    <div className="flex  mt-10 md:justify-start social-media-in-footer text-gray-500">
                                         <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -111,20 +111,20 @@ const FooterHolidays = () => {
                                         className="mb-4 flex justify-center font-semibold uppercase md:justify-center ">
                                         Company
                                     </h6>
-                                    <p className="mb-4">
+                                    <p className="mb-4 text-gray-400">
                                         <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                         >Pricing</a>
                                     </p>
-                                    <p className="mb-4">
+                                    <p className="mb-4 text-gray-400">
                                         <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                         >About</a>
                                     </p>
-                                    <p className="mb-4">
+                                    <p className="mb-4 text-gray-400">
                                         <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                         >Gallery</a>
                                     </p>
                                     <p>
-                                        <a href="#!" className="text-neutral-600 dark:text-neutral-200"
+                                        <a href="#!" className="text-neutral-600 dark:text-neutral-200 text-gray-400"
                                         >Contact</a>
                                     </p>
                                 </div>
@@ -137,38 +137,38 @@ const FooterHolidays = () => {
                                     <div className="destinations-in-footer flex gap-12">
 
                                         <div className="destination-first-col">
-                                            <p className="mb-4">
+                                            <p className="mb-4 text-gray-400">
                                                 <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                                 >Jaipur</a>
                                             </p>
-                                            <p className="mb-4">
+                                            <p className="mb-4 text-gray-400">
                                                 <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                                 >Jodhpur</a>
                                             </p>
-                                            <p className="mb-4">
+                                            <p className="mb-4 text-gray-400">
                                                 <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                                 >Munnar</a>
                                             </p>
                                             <p>
-                                                <a href="#!" className="text-neutral-600 dark:text-neutral-200"
+                                                <a href="#!" className="text-neutral-600 dark:text-neutral-200 text-gray-400"
                                                 >Trivendrum</a>
                                             </p>
                                         </div>
                                         <div className="destination-second-col">
-                                            <p className="mb-4">
+                                            <p className="mb-4 text-gray-400">
                                                 <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                                 >Shrinagar</a>
                                             </p>
-                                            <p className="mb-4">
+                                            <p className="mb-4 text-gray-400">
                                                 <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                                 >Sonmarg</a>
                                             </p>
-                                            <p className="mb-4">
+                                            <p className="mb-4 text-gray-400">
                                                 <a href="#!" className="text-neutral-600 dark:text-neutral-200"
                                                 >Gulmarg</a>
                                             </p>
                                             <p>
-                                                <a href="#!" className="text-neutral-600 dark:text-neutral-200"
+                                                <a href="#!" className="text-neutral-600 dark:text-neutral-200 text-gray-400"
                                                 >Pahalgam</a>
                                             </p>
                                         </div>
@@ -239,21 +239,21 @@ const FooterHolidays = () => {
                             </div>
                         </div>
 
-            {/* <!--Copyright section--> */}
-            <div className="bg-neutral-200 p-6 text-center copyright-section mt-24">
-              <span>© 2023 Copyright:</span>
-              <a
-                className="font-semibold text-neutral-600 dark:text-neutral-400"
-                href="https://tailwind-elements.com/"
-              >
-                Tailwind Elements
-              </a>
+                        {/* <!--Copyright section--> */}
+                        <div className="bg-neutral-200 p-6 text-center copyright-section mt-24">
+                            <span>© 2023 Copyright:</span>
+                            <a
+                                className="font-semibold text-neutral-600 dark:text-neutral-400"
+                                href="https://tailwind-elements.com/"
+                            >
+                                Tailwind Elements
+                            </a>
+                        </div>
+                    </footer>
+                </div>
             </div>
-          </footer>
-        </div>
-      </div>
-    </>
-  );
+        </>
+    );
 };
 
 export default FooterHolidays;
