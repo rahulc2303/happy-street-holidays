@@ -27,7 +27,7 @@ export function RecentTripComponent(props) {
         <Typography
           variant="h5"
           color="blue-gray"
-          className="font-medium mb-3 block items-center justify-between"
+          className="cursor-pointer hover:text-red-600 font-medium mb-3 block items-center justify-between"
         >
           {props.RecentTripsDetails.descriptions}
         </Typography>

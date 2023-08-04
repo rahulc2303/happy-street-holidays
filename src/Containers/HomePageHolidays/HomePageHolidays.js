@@ -6,6 +6,7 @@ import { PopularPlacesCard } from "../../Components/PopularPlacesCard/PopularPla
 import FooterHolidays from "./../../Components/FooterHolidays/FooterHolidays";
 import "./HomePageHolidays.css";
 import { RecentTripComponent } from "../../Components/RecentTripComponent/RecentTripComponent";
+import TestimonialCarousel from "../../Components/Testomonial/Testomonial";
 
 const HomePageHolidays = () => {
   const popularplacescards = [
@@ -138,7 +139,7 @@ const HomePageHolidays = () => {
       </div>
       {/* Slider component for the carousel that appears on home screen after navbar for different places  */}
       <div className="slider-component-for-the-main-home-page">
-        <Slider />
+        {/* <Slider /> */}
       </div>{" "}
       <div className="flex-container-for-the-home-screen-container">
         {/* width specific 75em for the middle section of HomePage */}
@@ -183,7 +184,7 @@ const HomePageHolidays = () => {
             </div>
           </div>
           {/* Section for Recent Trips component */}
-          <div className="section-for-the-recent-trips-component">
+          <div className="mb-40 section-for-the-recent-trips-component">
             {/* heading for the recent trips */}
             <div className="heading-text-and-the-description-for-the-recent-trips-section">
               <p className="heading-for-the-recent-trips-section">
@@ -200,6 +201,10 @@ const HomePageHolidays = () => {
               ))}
               {/* <PopularDestinationCard2 /> */}
             </div>
+          </div>
+          {/* testimonial component for homepage */}
+          <div className="testimonial-component-for-main-screen">
+            <TestimonialCarousel />
           </div>
         </div>{" "}
       </div>{" "}

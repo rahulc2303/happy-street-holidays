@@ -11,6 +11,7 @@
 
 .copyright-section {
   background-color: #040e27;
+  border-top: 1px solid #80808047;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
