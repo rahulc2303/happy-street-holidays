@@ -138,7 +138,7 @@ const HomePageHolidays = () => {
       </div>
       {/* Slider component for the carousel that appears on home screen after navbar for different places  */}
       <div className="slider-component-for-the-main-home-page">
-        {/* <Slider /> */}
+        <Slider />
       </div>{" "}
       <div className="flex-container-for-the-home-screen-container">
         {/* width specific 75em for the middle section of HomePage */}
