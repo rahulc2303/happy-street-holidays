@@ -1,0 +1,31 @@
+.flex-container-for-the-variation-component {
+  display: flex;
+  justify-content: center;
+}
+.width-specific-for-variation-component-75em {
+  width: 75em;
+  display: flex;
+  justify-content: center;
+  margin: 5em 0;
+}
+.contains-img-for-component {
+  display: grid;
+  justify-content: center;
+  row-gap: 1em;
+  text-align: center;
+  width: 21em;
+}
+.img-for-the-section-variation-travel {
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-for-the-component-variation-travel {
+  font-size: 22px;
+  font-weight: 400;
+  color: #040e27;
+}
+.description-for-the-component-variation-travel {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6e6e6e;
+}
