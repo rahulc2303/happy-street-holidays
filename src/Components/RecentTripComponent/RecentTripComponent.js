@@ -10,7 +10,7 @@ import "./RecentTripComponent.css";
 
 export function RecentTripComponent(props) {
   return (
-    <Card className="w-full max-w-[23rem] shadow-lg ">
+    <Card className="w-100% max-w-[22rem] shadow-lg ">
       <CardHeader floated={false} color="blue-gray rounded-none">
         <img
           src={props.RecentTripsDetails.imgSrc}

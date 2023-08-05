@@ -11,7 +11,7 @@ export function PopularPlacesCard(props) {
   return (
     <Card
       shadow={false}
-      className="relative grid h-[16rem] w-full max-w-[23rem] items-end justify-center overflow-hidden text-center"
+      className="relative grid h-[16rem] w-full max-w-[22rem] items-end justify-center overflow-hidden text-center"
     >
       <CardHeader
         floated={false}
