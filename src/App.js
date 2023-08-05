@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       {/* <NavBarHolidays /> */}
-      {/* <HomePageHolidays /> */}
-      <AboutPageHolidays />
+      <HomePageHolidays />
+      {/* <AboutPageHolidays /> */}
     </>
   );
 }
