@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurGalleryPageHolidays.css"
+import NavBarHolidays from "../../Components/NavBarHolidays/NavBarHolidays";
 
 const OurGalleryPageHolidays = () => {
   const products = [
@@ -104,6 +105,9 @@ const OurGalleryPageHolidays = () => {
 
   return <div>
 
+    <div className="main-navbar-for-the-happy-street-holidays">
+      <NavBarHolidays />
+    </div>
 
     <div className="flex-container-for-gallery">
 
