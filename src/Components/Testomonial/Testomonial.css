@@ -1,3 +1,7 @@
+.testo-main-div {
+  background-color: #f7fafd;
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
   .respo-content-cls {
     padding: 0;

@@ -2,6 +2,11 @@
   display: flex;
   justify-content: center;
 }
+.main-navbar-for-the-happy-street-holidays {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
 .width-specific-75em-for-the-home-page-middle-sections {
   width: 75em;
 }
