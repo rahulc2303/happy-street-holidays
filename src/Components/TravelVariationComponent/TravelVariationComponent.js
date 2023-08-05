@@ -34,14 +34,14 @@ const TravelVariationComponent = () => {
             {/* image */}
             <div className="contains-img-for-component">
               <img
-                src="https://preview.colorlib.com/theme/travelo/img/svg_icon/1.svg"
+                src="https://preview.colorlib.com/theme/travelo/img/svg_icon/2.svg"
                 alt=""
                 srcset=""
                 className="img-for-the-section-variation-travel"
               />
               {/* header for the component */}
               <p className="header-for-the-component-variation-travel">
-                Comfortable Journey
+                Luxuries Hotel
               </p>
               {/* description of the component */}
               <p className="description-for-the-component-variation-travel ">
@@ -54,14 +54,14 @@ const TravelVariationComponent = () => {
             {/* image */}
             <div className="contains-img-for-component">
               <img
-                src="https://preview.colorlib.com/theme/travelo/img/svg_icon/1.svg"
+                src="https://preview.colorlib.com/theme/travelo/img/svg_icon/3.svg"
                 alt=""
                 srcset=""
                 className="img-for-the-section-variation-travel"
               />
               {/* header for the component */}
               <p className="header-for-the-component-variation-travel">
-                Comfortable Journey
+                Travel Guide
               </p>
               {/* description of the component */}
               <p className="description-for-the-component-variation-travel ">

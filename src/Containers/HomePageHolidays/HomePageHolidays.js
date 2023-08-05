@@ -4,9 +4,10 @@ import Slider from "./../../Components/HomeScreenSlider/Slider";
 import { PopularDestinationCard2 } from "./../../Components/PopularDestinationCard2/PopularDestinationCard2";
 import { PopularPlacesCard } from "../../Components/PopularPlacesCard/PopularPlacesCard";
 import FooterHolidays from "./../../Components/FooterHolidays/FooterHolidays";
-import "./HomePageHolidays.css";
 import { RecentTripComponent } from "../../Components/RecentTripComponent/RecentTripComponent";
 import TestimonialCarousel from "../../Components/Testomonial/Testomonial";
+import TravelVariationComponent from "./../../Components/TravelVariationComponent/TravelVariationComponent";
+import "./HomePageHolidays.css";
 
 const HomePageHolidays = () => {
   const popularplacescards = [
@@ -202,7 +203,10 @@ const HomePageHolidays = () => {
               {/* <PopularDestinationCard2 /> */}
             </div>
           </div>
+          {/* travel variation component */}
+          <TravelVariationComponent />
           {/* testimonial component for homepage */}
+
           <div className="testimonial-component-for-main-screen">
             <TestimonialCarousel />
           </div>

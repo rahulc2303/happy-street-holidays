@@ -6,7 +6,7 @@
   width: 75em;
   display: flex;
   justify-content: center;
-  margin: 5em 0;
+  margin: 2em 0;
 }
 .contains-img-for-component {
   display: grid;
@@ -28,4 +28,16 @@
   font-size: 16px;
   font-weight: 400;
   color: #6e6e6e;
+}
+
+/* Media Query */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .width-specific-for-variation-component-75em {
+    width: auto;
+    display: grid;
+    justify-content: center;
+    margin: 5em 0;
+    row-gap: 5em;
+  }
 }
