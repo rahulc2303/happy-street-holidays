@@ -37,7 +37,7 @@ const TestimonialCarousel = () => {
   };
 
   return (
-    <div className="bg-#F7FAFD min-h-screen flex justify-center items-center overflow-hidden">
+    <div className="min-h-screen flex justify-center items-center overflow-hidden testo-main-div my-5">
       <div className="bg-#F7FAFD rounded-lg  w-7/12 respo-content-cls">
         <div className="relative h-400px">
           {/* <div className="mb-4 text-center">
@@ -47,11 +47,10 @@ const TestimonialCarousel = () => {
             {testimonial.map((testimonial, index) => (
               <div
                 key={testimonial.id}
-                className={`absolute w-full transform transition-all duration-300 ${
-                  index === activeIndex
-                    ? "opacity-100 "
-                    : "opacity-0 translate-x-full"
-                }`}
+                className={`absolute w-full transform transition-all duration-300 ${index === activeIndex
+                  ? "opacity-100 "
+                  : "opacity-0 translate-x-full"
+                  }`}
               >
                 <div className="items-center mb-2 text-center">
                   <img
@@ -74,9 +73,8 @@ const TestimonialCarousel = () => {
           {testimonial.map((_, index) => (
             <button
               key={index}
-              className={`w-3 h-3 rounded-full mx-1 focus:outline-none ${
-                index === activeIndex ? "bg-blue-500" : "bg-gray-300"
-              }`}
+              className={`w-3 h-3 rounded-full mx-1 focus:outline-none ${index === activeIndex ? "bg-blue-500" : "bg-gray-300"
+                }`}
               onClick={() => handleDotClick(index)}
             />
           ))}

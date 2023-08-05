@@ -3,11 +3,15 @@ import NavBarHolidays from "../../Components/NavBarHolidays/NavBarHolidays";
 import TestimonialCarousel from "./../../Components/Testomonial/Testomonial";
 import FooterHolidays from "../../Components/FooterHolidays/FooterHolidays";
 import "./AboutPageHolidays.css";
+import TravelVariationComponent from "../../Components/TravelVariationComponent/TravelVariationComponent";
+import { RecentTripComponent } from "../../Components/RecentTripComponent/RecentTripComponent";
 
 const AboutPageHolidays = () => {
   return (
     <>
-      <NavBarHolidays />
+      <div className="main-navbar-for-the-happy-street-holidays">
+        <NavBarHolidays />
+      </div>
 
       <div className="h-[480px] w-full relative about-us-banner">
         {/* <img src="https://preview.colorlib.com/theme/travelo/img/banner/bradcam3.png.webp" alt="" className="w-full h-[480px] bg-cover bg-no-repeat" /> */}
@@ -109,10 +113,14 @@ const AboutPageHolidays = () => {
           </div>
         </div>
       </div>
-
+      <div className="my-5">
+        <TravelVariationComponent />
+      </div>
       {/* Review Section */}
       <TestimonialCarousel />
-
+      {/* <div>
+        <RecentTripComponent />
+      </div> */}
       {/* Footer Section */}
       <FooterHolidays />
     </>

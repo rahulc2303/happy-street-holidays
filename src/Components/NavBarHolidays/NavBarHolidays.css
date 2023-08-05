@@ -28,7 +28,7 @@
 }
 
 .Navbar > .nav-items > a::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -115,7 +115,7 @@
 
   .nav-toggle > .bar::before,
   .nav-toggle > .bar::after {
-    content: "";
+    content: '';
     position: absolute;
     height: 2px;
     background: #000000;
