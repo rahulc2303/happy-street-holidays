@@ -19,13 +19,15 @@ const ContactPageHolidays = () => {
       subject,
     };
 
+
+
     // Replace with your API endpoint for sending emails
-    const response = await fetch('/send_email_endpoint', {
+    const response = await fetch('http://localhost:3001/send_email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify(formData)
     });
 
     if (response.ok) {
@@ -110,7 +112,7 @@ const ContactPageHolidays = () => {
             className="form-input" placeholder="Subject"
           />
 
-          <button type="submit" className="form-button" onSubmit={handleSubmit}>Send</button>
+          <button type="submit" className="form-button" onClick={handleSubmit}>Send</button>
         </form>
 
         {showPopup && (

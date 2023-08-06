@@ -1,16 +1,21 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(bodyParser.json());
+app.use(cors());
+
+
 
 // API endpoint for receiving email data
 app.post('/send_email', (req, res) => {
     const { message, name, email, subject } = req.body;
+    console.log("Okkk",message, name, email, subject,req.body)
 
     // Set up Nodemailer transporter
     const transporter = nodemailer.createTransport({
@@ -40,6 +45,11 @@ app.post('/send_email', (req, res) => {
         }
     });
 });
+
+
+app.get('/',(req,res)=>{
+    return res.send("Hello World")
+})
 
 // Start the server
 app.listen(PORT, () => {
